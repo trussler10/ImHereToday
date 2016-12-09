@@ -2,10 +2,9 @@
 
 import mongoose from 'mongoose';
 
-var ThingSchema = new mongoose.Schema({
+var LocationSchema = new mongoose.Schema({
   name: String,
-  info: String,
-  active: Boolean
+  cubes: Array
 });
 
-export default mongoose.model('Thing', ThingSchema);
+export default mongoose.model('Location', LocationSchema);
