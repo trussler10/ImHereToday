@@ -40,6 +40,169 @@ Thing.find({}).remove()
       });
   });
 
+Office.find({}).remove()
+  .then(() => {
+    Office.create(
+		{
+			name: 'Perficient Denver',
+			cubes: [
+			  { name: 'Training Room 1' }
+			, { name: 'Training Room 2' }
+			, { name: 'Training Room 3' }
+			, { name: 'Training Room 4' }
+			, { name: 'Training Room 5' }
+			, { name: 'Training Room 6' }
+			, { name: 'Training Room 7' }
+			, { name: 'Training Room 8' }
+			, { name: 'Training Room 9' }
+			, { name: 'Training Room 10' }
+			, { name: 'Training Room 11' }
+			, { name: 'Training Room 12' }
+			, { name: 'Training Room 13' }
+			, { name: 'Training Room 14' }
+			, { name: 'Training Room 15' }
+			, { name: 'Training Room 16' }
+			, { name: 'Bullpen 1' }
+			, { name: 'Bullpen 2' }
+			, { name: 'Bullpen 3' }
+			, { name: 'Bullpen 4' }
+			, { name: 'Bullpen 5' }
+			, { name: 'Bullpen 6' }
+			, { name: 'Bullpen 7' }
+			, { name: 'Bullpen 8' }
+			, { name: 'Bullpen 9' }
+			, { name: 'Bullpen 10' }
+			, { name: 'Bullpen 11' }
+			, { name: 'Bullpen 12' }
+			, { name: 'Bullpen 13' }
+			, { name: 'Bullpen 14' }
+			, { name: 'Bullpen 15' }
+			, { name: 'Bullpen 16' }
+			, { name: 'Bullpen 17' }
+			, { name: 'Bullpen 18' }
+			, { name: 'Bullpen 19' }
+			, { name: 'Bullpen 20' }
+			, { name: 'Bullpen 21' }
+			, { name: 'Bullpen 22' }
+			, { name: 'Bullpen 23' }
+			, { name: 'Bullpen 24' }
+			, { name: 'Bullpen 25' }
+			, { name: 'Bullpen 26' }
+			, { name: 'Bullpen 27' }
+			, { name: 'Bullpen 28' }
+			, { name: 'Bullpen 29' }
+			, { name: 'Cubicles 1' }
+			, { name: 'Cubicles 2' }
+			, { name: 'Cubicles 3' }
+			, { name: 'Cubicles 4' }
+			, { name: 'Offices 1' }
+			, { name: 'Offices 2' }
+			, { name: 'Offices 3' }
+			, { name: 'Offices 4' }
+			, { name: 'Offices 5' }
+			, { name: 'Offices 6' }
+			, { name: 'Offices 7' }
+			, { name: 'Offices 8' }
+			, { name: 'Offices 9' }
+			, { name: 'Offices 10' }
+			, { name: 'Offices 11' }
+			, { name: 'Offices 12' }
+			, { name: 'Offices 13' }
+			, { name: 'Offices 14' }
+			, { name: 'Offices 15' }
+			, { name: 'Conference Room 1' }
+			, { name: 'Conference Room 2' }
+			, { name: 'Conference Room 3' }
+			, { name: 'accounting Room 1' }
+			, { name: 'accounting Room 2' }
+			, { name: 'accounting Room 3' }
+			, { name: 'IBM Analytics 1' }
+			, { name: 'IBM Analytics 2' }
+			, { name: 'IBM Analytics 3' }
+			, { name: 'IBM Analytics 4' }
+			]
+		}, {
+			name: 'Perficient St Louis',
+			cubes: [
+			  { name: 'Bullpen 1' }
+			, { name: 'Bullpen 2' }
+			, { name: 'Bullpen 3' }
+			, { name: 'Bullpen 4' }
+			, { name: 'Bullpen 5' }
+			, { name: 'Bullpen 6' }
+			, { name: 'Bullpen 7' }
+			, { name: 'Bullpen 8' }
+			, { name: 'Bullpen 9' }
+			, { name: 'Bullpen 10' }
+			, { name: 'Bullpen 11' }
+			, { name: 'Bullpen 12' }
+			, { name: 'Bullpen 13' }
+			, { name: 'Bullpen 14' }
+			, { name: 'Bullpen 15' }
+			, { name: 'Bullpen 16' }
+			, { name: 'Bullpen 17' }
+			, { name: 'Bullpen 18' }
+			, { name: 'Bullpen 19' }
+			, { name: 'Bullpen 20' }
+			, { name: 'Bullpen 21' }
+			, { name: 'Bullpen 22' }
+			, { name: 'Offices 1' }
+			, { name: 'Offices 2' }
+			, { name: 'Offices 3' }
+			, { name: 'Offices 4' }
+			, { name: 'Offices 5' }
+			, { name: 'Offices 6' }
+			, { name: 'Offices 7' }
+			, { name: 'Offices 8' }
+			, { name: 'Offices 9' }
+			, { name: 'Offices 10' }
+			, { name: 'Offices 11' }
+			, { name: 'Offices 12' }
+			]
+		}, {
+			name: 'Perficient St Houston',
+			cubes: [
+			  { name: 'Bullpen 1' }
+			, { name: 'Bullpen 2' }
+			, { name: 'Bullpen 3' }
+			, { name: 'Bullpen 4' }
+			, { name: 'Bullpen 5' }
+			, { name: 'Bullpen 6' }
+			, { name: 'Bullpen 7' }
+			, { name: 'Bullpen 8' }
+			, { name: 'Bullpen 9' }
+			, { name: 'Bullpen 10' }
+			, { name: 'Bullpen 11' }
+			, { name: 'Bullpen 12' }
+			, { name: 'Bullpen 13' }
+			, { name: 'Bullpen 14' }
+			, { name: 'Bullpen 15' }
+			, { name: 'Bullpen 16' }
+			, { name: 'Bullpen 17' }
+			, { name: 'Bullpen 18' }
+			, { name: 'Bullpen 19' }
+			, { name: 'Bullpen 20' }
+			, { name: 'Bullpen 21' }
+			, { name: 'Bullpen 22' }
+			, { name: 'Offices 1' }
+			, { name: 'Offices 2' }
+			, { name: 'Offices 3' }
+			, { name: 'Offices 4' }
+			, { name: 'Offices 5' }
+			, { name: 'Offices 6' }
+			, { name: 'Offices 7' }
+			, { name: 'Offices 8' }
+			, { name: 'Offices 9' }
+			, { name: 'Offices 10' }
+			, { name: 'Offices 11' }
+			, { name: 'Offices 12' }
+			, { name: 'Conference Room 1' }
+			, { name: 'Conference Room 2' }
+			]
+		}
+    );
+  });
+  
 Location.find({}).remove()
   .then(() => {
     Location.create(
